@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Remove all examples from connected device(s)
 import subprocess
 import sys
@@ -5,6 +7,8 @@ import sys
 APP_NAMES = [
     "de.saschawillems.vulkanBloom",
     "de.saschawillems.vulkanComputecullandlod",
+    "de.saschawillems.vulkanComputecloth",
+    "de.saschawillems.vulkanComputeheadless",
     "de.saschawillems.vulkanComputenbody",
     "de.saschawillems.vulkanComputeparticles",
     "de.saschawillems.vulkanComputeshader",
@@ -28,12 +32,14 @@ APP_NAMES = [
     "de.saschawillems.vulkanOffscreen",
     "de.saschawillems.vulkanPBRBasic",
     "de.saschawillems.vulkanPBRIBL",
+    "de.saschawillems.vulkanPBRTexture",    
     "de.saschawillems.vulkanParallaxmapping",
     "de.saschawillems.vulkanParticlefire",
     "de.saschawillems.vulkanPipelines",
     "de.saschawillems.vulkanPushconstants",
     "de.saschawillems.vulkanRadialblur",
     "de.saschawillems.vulkanRaytracing",
+    "de.saschawillems.vulkanRenderheadless",
     "de.saschawillems.vulkanSSAO",
     "de.saschawillems.vulkanScenerendering",
     "de.saschawillems.vulkanShadowmapping",
@@ -41,6 +47,7 @@ APP_NAMES = [
     "de.saschawillems.vulkanSkeletalanimation",
     "de.saschawillems.vulkanSpecializationconstants",
     "de.saschawillems.vulkanSphericalenvmapping",
+    "de.saschawillems.vulkanStencilbuffer",
     "de.saschawillems.vulkanSubpasses",
     "de.saschawillems.vulkanTerraintessellation",
     "de.saschawillems.vulkanTessellation",
@@ -51,6 +58,7 @@ APP_NAMES = [
     "de.saschawillems.vulkanTexturecubemap",
     "de.saschawillems.vulkanTexturemipmapgen",
     "de.saschawillems.vulkanTriangle",
+    "de.saschawillems.vulkanViewportarray",
     "de.saschawillems.vulkanVulkanscene"
 ]
 
